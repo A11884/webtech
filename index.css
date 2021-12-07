@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body{
+    margin: 0;
+    background-color: #1F1D36;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    padding: 0  !important;
+background-color: #3F3351 !important;
+
+}
+.logo{
+    width: 35%;
+}
+@media screen  and (min-width: 800px){
+
+    .navigation-container {
+        border: 1px solid crimson;
+        border-radius: 35px 35px 35px 35px;
+background-color: #3F3351;
+
+    }
+    .large{
+        width: 45%;
+    }
+
+    .responsive{
+   width: 300px !important;
+    }
+}
+.navigation-container {
+    padding: 10px;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    background-color: transparent !important;
+
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+text-align: center !important;
+}
+.card-img{
+    width: 50%;
+}
+
+.responsive{
+    width: 80% !important;
+    margin: auto !important;
+}
+
+header, .nav-item{
+    color: white;
+    overflow: hidden;
+}
+.nav-item:hover{
+
+    border-bottom: 2px solid #ffffff;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,51 @@
+.footer-span{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+footer{
+    border-radius: 25px 25px 0 0;
+    padding: 25px;
+    margin-top: 25px;
+    color: white;
+    border: 0.5px solid white;
+    background: #22163a;  /* fallback for old browsers */
+
+
+}
+
+.info-col >ul >li{
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 35px;
+    color: white;
+    padding: 10px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+}
+input::placeholder{
+    text-align: center;
+}
+.col-subscribe{
+    text-align: right;
+}
+.go{
+    margin: 15px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 10px;
+    border: none;
+}

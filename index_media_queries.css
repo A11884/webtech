@@ -1,0 +1,78 @@
+@media only screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        background-color: #000000;
+        color: #F58840;
+    }
+    .navigation-container {
+        border-top: 3px solid crimson;
+        padding: 10px;
+        margin: 0;
+        width: auto;
+        background-color: #EADEDE;
+    }
+    .nav-item{
+        display:flex;
+        flex-direction: column;
+        list-style: none;
+        color: black;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+
+    }
+    .logo{
+        text-align: center;
+    }
+    .shop-logo{
+        margin: 0;
+        padding:5px;
+    }
+   .card{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .card-img{
+       width: 65%;
+   }
+   .slide{
+       max-height:320px;
+       background-size: cover;
+       position: relative;
+   }
+   .info{
+    position: absolute;
+       top:68%;
+       left: 20%;
+    font-size: 16px;
+   }
+
+}
+
+@media only screen and (max-width: 768px){
+    .info{
+        top:80%;
+        width: 100%;
+    }
+    body{
+    }
+    .large{
+        width: 100%;
+    }
+    .footer-wrapper{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+}
+
